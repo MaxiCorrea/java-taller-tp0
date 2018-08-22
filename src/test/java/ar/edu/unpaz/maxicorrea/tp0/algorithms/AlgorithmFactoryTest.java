@@ -4,9 +4,9 @@ import static ar.edu.unpaz.maxicorrea.tp0.algorithms.Algorithms.ARITHMETIC_AVERA
 import static ar.edu.unpaz.maxicorrea.tp0.algorithms.Algorithms.EVEN;
 import static ar.edu.unpaz.maxicorrea.tp0.algorithms.Algorithms.FACTORIAL;
 import static ar.edu.unpaz.maxicorrea.tp0.algorithms.Algorithms.INVALID;
-import static ar.edu.unpaz.maxicorrea.tp0.algorithms.Algorithms.MAXIMUN;
+import static ar.edu.unpaz.maxicorrea.tp0.algorithms.Algorithms.MAXIMUM;
 import static ar.edu.unpaz.maxicorrea.tp0.algorithms.Algorithms.MEDIAN;
-import static ar.edu.unpaz.maxicorrea.tp0.algorithms.Algorithms.MINIMUN;
+import static ar.edu.unpaz.maxicorrea.tp0.algorithms.Algorithms.MINIMUM;
 import static ar.edu.unpaz.maxicorrea.tp0.algorithms.Algorithms.NATURAL_ORDER;
 import static ar.edu.unpaz.maxicorrea.tp0.algorithms.Algorithms.ODD;
 import static ar.edu.unpaz.maxicorrea.tp0.algorithms.Algorithms.ORIGINAL;
@@ -27,7 +27,7 @@ public class AlgorithmFactoryTest {
   public void shouldReturnAllTheAlgorithms() {
     List<Algorithm> expecteds =
         Arrays.asList(ORIGINAL.getAlgorithm(), VALID.getAlgorithm(), INVALID.getAlgorithm(),
-            MAXIMUN.getAlgorithm(), MINIMUN.getAlgorithm(), FACTORIAL.getAlgorithm(),
+            MAXIMUM.getAlgorithm(), MINIMUM.getAlgorithm(), FACTORIAL.getAlgorithm(),
             NATURAL_ORDER.getAlgorithm(), REVERSE_ORDER.getAlgorithm(), REPEATED.getAlgorithm(),
             ARITHMETIC_AVERAGE.getAlgorithm(), MEDIAN.getAlgorithm(), EVEN.getAlgorithm(),
             ODD.getAlgorithm(), PRIME.getAlgorithm(), WITHOUT_REPEATED.getAlgorithm());

@@ -10,9 +10,9 @@ enum Algorithms {
 
   INVALID(new InvalidAlgorithm()),
 
-  MAXIMUN(new MaximumAlgorithm()),
+  MAXIMUM(new MaximumAlgorithm()),
 
-  MINIMUN(new MinimumAlgorithm()),
+  MINIMUM(new MinimumAlgorithm()),
 
   FACTORIAL(new FactorialAlgorithm()),
 
