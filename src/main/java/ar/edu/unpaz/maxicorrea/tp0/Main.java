@@ -3,7 +3,7 @@ package ar.edu.unpaz.maxicorrea.tp0;
 import java.io.IOException;
 import ar.edu.unpaz.maxicorrea.tp0.algorithms.AlgorithmFactory;
 import ar.edu.unpaz.maxicorrea.tp0.model.Analyzer;
-import ar.edu.unpaz.maxicorrea.tp0.model.Reader;
+import data.Reader;
 
 public class Main {
 

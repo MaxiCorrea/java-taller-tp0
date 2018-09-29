@@ -1,4 +1,4 @@
-package ar.edu.unpaz.maxicorrea.tp0.model;
+package ar.edu.unpaz.maxicorrea.tp0.data;
 
 import org.junit.Test;
 

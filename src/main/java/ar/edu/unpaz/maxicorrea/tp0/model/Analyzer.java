@@ -3,6 +3,8 @@ package ar.edu.unpaz.maxicorrea.tp0.model;
 import static ar.edu.unpaz.maxicorrea.tp0.util.UtilString.removeExtension;
 import java.io.IOException;
 import java.util.List;
+import data.Reader;
+import data.Writer;
 
 public class Analyzer {
 

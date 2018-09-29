@@ -1,4 +1,4 @@
-package ar.edu.unpaz.maxicorrea.tp0.model;
+package data;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import ar.edu.unpaz.maxicorrea.tp0.model.Line;
 
 public class Reader {
 
@@ -17,7 +18,7 @@ public class Reader {
     reader = new BufferedReader(new FileReader(path));
   }
 
-  List<Line> getAllLines() throws IOException {
+  public List<Line> getAllLines() throws IOException {
     String strLine;
     int number = 1;
     List<Line> lines = new ArrayList<>();
@@ -27,11 +28,11 @@ public class Reader {
     return lines;
   }
 
-  String getPath() {
+  public String getPath() {
     return path;
   }
 
-  void close() throws IOException {
+  public void close() throws IOException {
     reader.close();
   }
 
