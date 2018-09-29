@@ -1,4 +1,4 @@
-package data;
+package ar.edu.unpaz.maxicorrea.tp0.data;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

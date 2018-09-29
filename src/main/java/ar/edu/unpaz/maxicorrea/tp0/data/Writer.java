@@ -1,4 +1,4 @@
-package data;
+package ar.edu.unpaz.maxicorrea.tp0.data;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
